@@ -1,67 +1,14 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+.logo {
+  border-radius: 10px;
 }
-body {
-  background-color: azure;
+.nav-item {
+  margin-left: 10px;
 }
-header {
-  padding: 10px;
-  display: flex;
-  background-color: #ecefed;
-  justify-content: space-around;
-  border-bottom: 5px solid black;
-  border-radius: 20px;
-}
-/* =======================image_icon=================== */
-#logo {
-  height: 50px;
-}
-.imgcon {
-  padding: 10px;
-  background-color: sandybrown;
-  border-radius: 20px;
-}
-.imgcon:hover {
-  cursor: pointer;
-}
-/* ========================================================================= */
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&family=Roboto:ital@1&display=swap");
-.con {
-  text-align: right;
-  width: 100vw;
-  position: relative;
-  justify-content: space-around;
-}
-.con ul {
-  display: flex;
-  justify-content: space-around;
-  position: relative;
-  top: 60%;
-  margin-left: 30vw;
-  margin-right: 10vw;
-}
-.con ul li {
-  display: inline;
-  position: relative;
-  list-style-type: none;
-  text-decoration: none;
-  font-size: 20px;
-}
-.con ul li a {
-  text-decoration: none;
-  transition: ease-in 150ms;
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: bolder;
-  font-size: 1em;
-  color: black;
-}
-/* ------------------------------------------------------ */
-ul li a:hover {
-  transition: ease-in 150ms;
+.nav-item:hover {
+  transition: ease-out 350ms;
   background-color: #ffad60;
-  border-radius: 20px;
-  padding: 5px;
+  border-radius: 15px;
   box-shadow: 5px 10px #888888;
+  margin: 0px 20px 0px 20px;
+  font-weight: bold;
 }
